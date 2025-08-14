@@ -8,7 +8,7 @@ A machine learning project that predicts future retail sales using historical tr
 
 - Cleans and structures historical retail sales data
 - Engineers features like monthly averages, holiday spikes, and seasonality
-- Trains time series forecasting models (Prophet, XGBoost)
+- Trains time series forecasting models (Prophet)
 - Builds a Power BI dashboard to show trends and forecasts
 - Provides clear business insights for decision-making
 
@@ -31,7 +31,9 @@ A machine learning project that predicts future retail sales using historical tr
 | Jupyter Notebook   | Exploratory analysis & model training    |
 | Facebook Prophet   | Time series forecasting                  |
 | Power BI Desktop   | Interactive dashboards & visual insights |
+| Matplotlib         | visual insights                          |
 | Pandas / NumPy     | Data preprocessing                       |
+| scikit-learn       | Error metrics (MAE, MSE)                 |
 
 ---
 
@@ -43,6 +45,7 @@ A machine learning project that predicts future retail sales using historical tr
    cd sales-forecasting-dashboard
 
 2. **Install dependencies**
+   ```bash
    pip install -r requirements.txt
 
 3.**Run the notebook**
